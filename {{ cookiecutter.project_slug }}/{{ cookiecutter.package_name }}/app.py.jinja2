@@ -16,7 +16,6 @@ class {{ cookiecutter.app_class_name }}(MDApp):
     def build(self):
         # Load the kv files
         Builder.load_file(os.path.join(config.KV_PATH, "home.kv"))
-        Builder.load_file(os.path.join(config.KV_PATH, "intro.kv"))
 
         sm = MyScreenManager()
         sm.add_widget(HomeScreen())
