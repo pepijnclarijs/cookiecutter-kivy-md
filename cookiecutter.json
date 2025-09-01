@@ -1,0 +1,6 @@
+{
+  "project_name": "My App",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "app_class_name": "{{ cookiecutter.project_name.title().replace(' ', '') }}App"
+}
